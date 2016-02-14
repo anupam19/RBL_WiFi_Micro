@@ -14,13 +14,6 @@
 #define PATH_URL "/api/v1.6/collections/values"
 #define METHOD "POST"
 
-
-char *locationinfo;
-char* ptr;
-char loc_content[300];
-char req_header[300];
-char accpt_payload[300];
-
 DHT dht(DHTPIN, DHTTYPE);
 
 // your network name also called SSID
